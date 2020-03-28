@@ -1,0 +1,3 @@
+/home/nivii/workspace/myrobot/build/CMakeFiles/rebuild_cache.dir
+/home/nivii/workspace/myrobot/build/CMakeFiles/hello.dir
+/home/nivii/workspace/myrobot/build/CMakeFiles/edit_cache.dir
