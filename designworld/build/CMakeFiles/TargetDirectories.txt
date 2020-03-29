@@ -1,0 +1,3 @@
+/home/nivii/workspace/designworld/build/CMakeFiles/rebuild_cache.dir
+/home/nivii/workspace/designworld/build/CMakeFiles/welcomemessage.dir
+/home/nivii/workspace/designworld/build/CMakeFiles/edit_cache.dir
