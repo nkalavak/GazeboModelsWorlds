@@ -1,0 +1,15 @@
+[submodule "path_to_submodule"] 
+  path = KalmanFilter/odom_to_trajectory 
+  url = https://github.com/udacity/odom_to_trajectory
+
+[submodule "path_to_submodule2"]
+  path = KalmanFilter/robot_pose_ekf
+  url = https://github.com/udacity/robot_pose_ekf
+
+[submodule "path_to_submodule3"]
+  path = KalmanFilter/turtlebot
+  url = https://github.com/turtlebot/turtlebot
+
+[submodule "path_to_submodule4"]
+  path = KalmanFilter/turtlebot_simulator
+  url = https://github.com/turtlebot/turtlebot_simulator
