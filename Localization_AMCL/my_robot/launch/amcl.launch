@@ -1,7 +1,7 @@
 <launch>
 
   <!-- Map Server -->
-  <arg name="map_file" default="$(find myrobot/maps/map.yaml"/>
+  <arg name="map_file" default="$(find my_robot)/maps/map.yaml"/>
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
 
   <!-- AMCL Node -->
@@ -21,11 +21,11 @@
     <param name="base_global_planner" value="navfn/NavfnROS" />
     <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
 
-    <rosparam file="$(find udacity_bot)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
-    <rosparam file="$(find udacity_bot)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
-    <rosparam file="$(find udacity_bot)/config/local_costmap_params.yaml" command="load" />
-    <rosparam file="$(find udacity_bot)/config/global_costmap_params.yaml" command="load" />
-    <rosparam file="$(find udacity_bot)/config/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find my_robot)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find my_robot)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find my_robot)/config/base_local_planner_params.yaml" command="load" />
 
 
   </node>
