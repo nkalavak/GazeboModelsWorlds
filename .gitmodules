@@ -13,3 +13,11 @@
 [submodule "path_to_submodule4"]
   path = KalmanFilter/turtlebot_simulator
   url = https://github.com/turtlebot/turtlebot_simulator
+
+[submodule "path_to_submodule5"]
+  path = Localization_AMCL/pgm_map_creator
+  url = https://github.com/udacity/pgm_map_creator.git
+
+[submodule "path_to_submodule6"]
+  path = Localization_AMCL/teleop_twist_keyboard
+  url = https://github.com/ros-teleop/teleop_twist_keyboard
